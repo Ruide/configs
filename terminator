@@ -1,0 +1,27 @@
+Used on Ubuntu 16.05
+located at ~/.config/terminator/config
+
+content:
+[global_config]
+  title_font = Purisa Bold 9
+  title_inactive_bg_color = "#fd45a1"
+  title_transmit_bg_color = "#89035e"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#300a24"
+    background_image = None
+    copy_on_selection = True
+    font = Monospace 12
+    foreground_color = "#ffffff"
+    use_system_font = False
